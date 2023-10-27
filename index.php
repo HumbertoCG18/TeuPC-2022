@@ -87,7 +87,7 @@ $resultado = mysqli_query($conn, $sql);
          $pecas = 1;
          $fecha = 1;
          while($row = mysqli_fetch_array($resultado)){
-       echo '<div class="card2" style="width: 17.5rem; margin-left: 25px;" class="col-sm-3 col-md-3 col-lg-3 col-xl-3">';   
+       echo '<div class="card2" style="width: 17.5rem; margin-left: 140px;" class="col-sm-3 col-md-3 col-lg-3 col-xl-3">';   
        echo '<img class="card-img-top2"src="imagens/'.$row['Imagem'].'" alt="Imagem de capa do card">';
        echo '<div class="card-body2" style="height:265px; width:265px">';
        echo '<h5 class="card-title2">'.$row['Nome'].'</h5><p class="card-text2-preco">R$ '.$row['Preco'].'</p>';
